@@ -4,7 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
-@TeleOp(name="ExampleTeleopTankMode", group="Test")
+@TeleOp(name="TESTCraneDrive", group="Test")
 public class CraneDriveMode extends OpMode {
 
     DcMotor leftMotor;
@@ -33,4 +33,3 @@ public class CraneDriveMode extends OpMode {
         rightMotor.setPower(leftY-rightX);
     }
 }
-
